@@ -17,6 +17,21 @@ export default function StartupProject() {
   if (!bigProjects.display) {
     return null;
   }
+
+  const GetDescBullets = ({descBullets, isDark}) => {
+    return descBullets
+      ? descBullets.map((item, i) => (
+          <li
+            key={i}
+            className={isDark ? "subTitle dark-mode-text" : "subTitle"}
+          >
+            {item}
+          </li>
+        ))
+      : null;
+  };
+
+
   return (
     <Fade bottom duration={1000} distance="20px">
       <div className="main" id="projects">
@@ -65,6 +80,9 @@ export default function StartupProject() {
                     >
                       {project.projectDesc}
                     </p>
+                    <ul className = "project-text-desc">
+                      <GetDescBullets descBullets={project.descBullets} isDark={isDark} />
+                    </ul>
                     {project.footerLink ? (
                       <div className="project-card-footer">
                         {project.footerLink.map((link, i) => {

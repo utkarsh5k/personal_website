@@ -9,6 +9,10 @@
   height: auto;
 }
 
+.project-text-desc {
+  text-align: left;
+}
+
 .repo-cards-div-main {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
@@ -28,5 +32,9 @@
   }
   .repo-cards-div-main {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  }
+
+  .project-text-desc {
+    font-size: 16px;
   }
 }
