@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Software Developer experienced in software engineering at scale, distributed systems and machine learning."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/1O1lMpxLhmGlh3d4CyKnfx1JjWtMAwOxe/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/197bC5Ax1g64BqKp9PwunVYW4QCxLL7_B/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
