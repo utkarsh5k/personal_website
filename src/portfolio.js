@@ -17,7 +17,7 @@ const greeting = {
     "A passionate Software Developer experienced in software engineering at scale, distributed systems and machine learning."
   ),
   resumeLink:
-    "https://drive.google.com/file/d/197bC5Ax1g64BqKp9PwunVYW4QCxLL7_B/view?usp=sharing", // Set to empty to hide the button
+    "https://drive.google.com/file/d/19YuboHRdeRDSVcbvAKxqw2yaYocgXbkF/view?usp=sharing", // Set to empty to hide the button
   displayGreeting: true // Set false to hide this section, defaults to true
 };
 
@@ -148,7 +148,7 @@ const educationInfo = {
       desc: "Research in Bayesian Machine Learning, Reinforcement learning and projects in Distributed Systems",
       descBullets: [
         "Ongoing research in adversarial attacks on reinforcement learning used in large scale software systems",
-        "Ongoing research in high dimensional black box functions using Bayesian Machine Learning",
+        "Ongoing research in optimization of high dimensional black box functions using Bayesian Machine Learning",
         "Built an end to end search engine from scratch on 500k webpages",
         "Built a fully functional, distributed clone of GMail and Google Drive from scratch", 
         "Teaching Assistant for Machine Learning in Fall 2021 and Spring 2022",
